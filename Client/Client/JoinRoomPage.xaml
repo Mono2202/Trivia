@@ -1,0 +1,36 @@
+﻿<Page x:Class="Client.JoinRoomPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Client"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Trivia - Join Room" Height="570" Width="755">
+
+    <Grid Loaded="UpdateRooms">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF44E6E6" Offset="0"/>
+                <GradientStop Color="#FF2047AE" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Join Room" Margin="3,22,3,462" Height="86" Width="749" FontFamily="Courier New" FontSize="72" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <ListBox x:Name="boxRooms" HorizontalAlignment="Left" Height="312" Margin="178,113,0,0" VerticalAlignment="Top" Width="399" ScrollViewer.VerticalScrollBarVisibility="Visible" FontFamily="Consolas" FontSize="20"/>
+        <Button Cursor="Hand" Content="Back" HorizontalAlignment="Left" Margin="10,469,0,55" VerticalAlignment="Center" Width="95" RenderTransformOrigin="0.074,-0.574" Height="46" FontFamily="Courier New" FontSize="22" FontWeight="Bold" BorderBrush="Black" Background="White" Foreground="Black" Click="BackButtonClick">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Cursor="Hand" Content="Join" HorizontalAlignment="Left" Margin="276,464,0,44" VerticalAlignment="Center" Width="186" RenderTransformOrigin="0.074,-0.574" Height="62" FontFamily="Courier New" FontSize="22" FontWeight="Bold" BorderBrush="White" Background="White" Foreground="Black" Click="JoinRoomButtonClick">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+    </Grid>
+</Page>

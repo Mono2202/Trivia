@@ -1,0 +1,61 @@
+﻿<Page x:Class="Client.MainMenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Client"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Trivia - Main Menu" Height="570" Width="755">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF44E6E6" Offset="0"/>
+                <GradientStop Color="#FF2047AE" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Cursor="Hand" Content="Create Room" HorizontalAlignment="Left" Margin="155,57,0,453" VerticalAlignment="Center" Width="186" RenderTransformOrigin="0.074,-0.574" Height="60" FontFamily="Courier New" FontSize="22" FontWeight="Bold" BorderBrush="White" Background="White" Foreground="Black" Click="CreateRoomWindowButtonClick">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Cursor="Hand" Content="Head-to-Head" HorizontalAlignment="Left" Margin="380,57,0,453" VerticalAlignment="Center" Width="186" RenderTransformOrigin="0.074,-0.574" Height="60" FontFamily="Courier New" FontSize="22" FontWeight="Bold" BorderBrush="White" Background="White" Foreground="Black" Click="HeadToHeadWindowButtonClick">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Cursor="Hand" Content="Join Room" HorizontalAlignment="Left" Margin="155,151,0,358" VerticalAlignment="Center" Width="411" RenderTransformOrigin="0.074,-0.574" Height="61" FontFamily="Courier New" FontSize="22" FontWeight="Bold" BorderBrush="White" Background="White" Foreground="Black" Click="JoinRoomWindowButtonClick">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Cursor="Hand" Content="Statistics" HorizontalAlignment="Left" Margin="155,246,0,263" VerticalAlignment="Center" Width="411" RenderTransformOrigin="0.074,-0.574" Height="61" FontFamily="Courier New" FontSize="22" FontWeight="Bold" BorderBrush="White" Background="White" Foreground="Black" Click="StatisticsWindowButtonClick">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Cursor="Hand" Content="Exit" HorizontalAlignment="Left" Margin="155,432,0,76" VerticalAlignment="Center" Width="411" RenderTransformOrigin="0.074,-0.574" Height="62" FontFamily="Courier New" FontSize="22" FontWeight="Bold" BorderBrush="White" Background="White" Foreground="Black" Click="ExitButtonClick">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Cursor="Hand" Content="Add Question" HorizontalAlignment="Left" Margin="155,340,0,168" VerticalAlignment="Center" Width="411" RenderTransformOrigin="0.074,-0.574" Height="62" FontFamily="Courier New" FontSize="22" FontWeight="Bold" BorderBrush="White" Background="White" Foreground="Black" Click="AddQuestionWindowButtonClick">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Page>
