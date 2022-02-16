@@ -5,6 +5,8 @@ questions correctly about a certain or variety of subjects. The game can be play
 
 The project includes the server, programmed in C++, and the client, programmed in C#.
 
+(Due to an error with GitLab, the full list of commits and branches can be found @https://gitlab.com/Mono_Ido_Advanced_Programming_2021/taki)
+
 ## Technologies
 
 The back-end (server) is created with:
