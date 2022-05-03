@@ -1,5 +1,8 @@
-# Trivia
+<p align="center">
+  <img src=https://user-images.githubusercontent.com/69368659/166495768-f954f820-2681-4ebf-9c92-ebf6cbbf9065.png height="300" width="300">
+</p>
 
+## Overview
 [Trivia❓](https://en.wikipedia.org/wiki/Trivia) is a form of game or mind sport in which players attempt to answer 
 questions correctly about a certain or variety of subjects. The game can be played with other players or by yourself.
 
